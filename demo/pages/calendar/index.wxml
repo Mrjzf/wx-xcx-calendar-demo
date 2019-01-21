@@ -1,0 +1,3 @@
+<!--pages/calendar/index.wxml-->
+<!-- <calendar currentYear='2018' currentMonth="8" bindsendObj='getCalendarData'></calendar> -->
+<calendar bindsendObj='getCalendarData'></calendar>

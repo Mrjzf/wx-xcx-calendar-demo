@@ -1,0 +1,47 @@
+/* components/calendar/calendar.wxss */
+page{
+  height: 100%;
+}
+.calendar {
+  width: 100%;
+  height: 100%;
+  background-color: #343434;
+  margin-top: 20rpx;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40rpx 0;
+  font-size: 40rpx;
+  color: #fff;
+}
+
+.current {
+  margin: 20px 40rpx;
+}
+
+.week {
+  display: flex;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  padding-left: 25rpx;
+}
+
+.week view {
+  width: 100rpx;
+  height: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  flex-shrink: 0;
+  font-size: 34rpx;
+  color: #fff;
+  margin: 14rpx 0;
+}
+.week .gray{
+  color: #999;
+}
+.week .here{
+  background-color: #19111a;
+}
